@@ -1,0 +1,318 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main styling body */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+/* utility class */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.text-primary {
+  color: #f7c08a;
+}
+
+.lead {
+  font-size: 17px;
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+.btn {
+  display: inline block;
+  font-size: 15px;
+  border: none;
+  padding: 13px 20px;
+  background: #333;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  overflow: none;
+}
+
+.hotel {
+  font-size: 15px;
+  border: none;
+  background: #333;
+  padding: 10px 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.hotel:hover {
+  background: #f7c08a;
+  color: #333;
+}
+
+.btn:hover {
+  background: #f7c08a;
+  color: #333;
+}
+.btn-light {
+  background: #fff;
+  color: #333;
+}
+
+.clr {
+  clear: both;
+}
+
+/* .pay-1 {padding:10px 0;}
+.pay-2 {padding:20px 0;}
+.pay-3 {padding:30px 0;} */
+
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+#showcase {
+  color: #fff;
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  height: 100vh;
+  text-align: center;
+}
+
+#showcase .showcase-contant {
+  padding-top: 150px;
+}
+
+#showcase .showcase-contant h1 {
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.1em;
+}
+
+/* #showcase .showcase-contant a {
+  overflow: none;
+  padding: 100px;
+} */
+
+#home-info {
+  height: 400px;
+  margin: 0;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url("../img/photo-1.jpg") no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-contant {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background: black;
+  text-align: center;
+  padding: 50px 50px;
+  overflow: hidden;
+  color: #fff;
+  font-weight: bold;
+}
+
+#home-info .info-contant h2 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+/* FEATURES */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 30px 45px;
+}
+#box-2 {
+  background: #fff;
+}
+
+#box-2 i {
+  font-size: 28px;
+  text-align: center;
+  padding-left: 130px;
+  padding-bottom: 10px;
+}
+
+#box-3 i {
+  font-size: 28px;
+  text-align: center;
+  padding-left: 130px;
+  padding-bottom: 10px;
+}
+
+#box-1 i {
+  font-size: 28px;
+  text-align: center;
+  padding-left: 130px;
+  padding-bottom: 10px;
+}
+
+#box-3 {
+  background: #fff;
+}
+
+.box p {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+.box h3 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+#box-1 {
+  background: orangered;
+}
+.info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* about-info */
+.info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  padding: 20px 0;
+  border-radius: 50%;
+}
+
+.info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding: 20px 0;
+}
+
+.one {
+  font-size: 40px;
+}
+.one-1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+}
+
+.my {
+  background: #f7c08a;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  opacity: 0.7;
+}
+img:hover {
+  opacity: 1;
+}
+
+#sh {
+  height: 500px;
+  background: url("../img/test-bg.jpg") no-repeat center center/cover;
+}
+
+.my img {
+  width: 100px;
+  float: left;
+  border-radius: 50%;
+}
+
+.o {
+  height: 4em;
+}
+/* contact form  */
+.form {
+  margin-bottom: 20px;
+}
+
+#f {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+textarea {
+  height: 100px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+.border {
+  color: #ddd;
+  background: black;
+}
+
+/* footer */
+#main-footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #444;
+  overflow: hidden;
+}
